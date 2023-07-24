@@ -1,0 +1,42 @@
+.principal{
+  margin: 2vw;
+}
+.disponibilidad{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  border: 1px solid rgb(15, 26, 233); 
+  border-radius: 2vw;
+}
+.filtros{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.data{
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100%;  
+}
+
+.card{
+  width: 15vw;
+  height: 15vw;
+  border: 2px solid black;
+  font-size: 10px;
+}
+.verLibros{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+}
+
+.dataCard{
+  display: flex;
+  flex-direction: column;
+}

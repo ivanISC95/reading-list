@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## ABOUT
+
+Aplicación de libros
+
+Esta prueba tecnica es sobre una aplicación de libros, los cuales se obtienen de un JSON
+La funcionalidad es la siguiente :
+1.- Mostrar todos los libros , estos toman el estatus de DISPONIBLES
+2.- Mostrar al usuario los libros disponibles
+3.- Añadir filtros (filtrado por numero de paginas y tipo de libro)
+4.- Añadir "Lista de Lectura" , en dicha opción el usuario podra añadir a su lista los libros que quiera (cada que se añada un libro se descuenta del total de libros en estado DISPONIBLE)
+5.- Mostrar "Lista de Lectura".

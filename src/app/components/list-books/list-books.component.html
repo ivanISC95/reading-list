@@ -1,0 +1,20 @@
+<ng-template #content let-offcanvas>
+	<div class="offcanvas-header">
+		<h4 class="offcanvas-title" id="offcanvas-basic-title">Lista de Lectura</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="data">
+			<div *ngFor="let i of datas" class="card">
+				<img class="img" src={{i.book.cover}}>
+				<p>{{i.book.title}}</p>
+			</div>      
+		</div>
+	</div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">  
+	<div matBadge={{this.datas.length}} matBadgeOverlap="false" class="demo-section">Lista de Lectura</div>
+</button>
+
+<hr />
